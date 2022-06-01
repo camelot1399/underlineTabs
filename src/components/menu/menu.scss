@@ -1,0 +1,34 @@
+.menu {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	&__wrapper {
+		position: relative;
+		> ul {
+			margin-left: 0;
+			padding-left: 0;
+			display: flex;
+			gap: 10px;
+			> li {
+				list-style-type: none;
+				background-color: blue;
+				color: white;
+				padding: 10px;
+				cursor: pointer;
+			}
+		}
+	}
+	
+}
+
+.underline {
+	background: red;
+	height: 10px;
+	left: 0;
+	position: absolute;
+	bottom: 0;
+	transition: all 0.5s;
+}
